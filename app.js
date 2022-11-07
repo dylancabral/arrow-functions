@@ -163,7 +163,7 @@ console.log(joe);
 
 
 
-Student.greeting = () => {return
+Student.prototype.greeting = (key1) => {return
   `Hi, my name is ${key1}`;}
 
 
